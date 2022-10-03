@@ -13,6 +13,7 @@ body {
   margin-top: 5%;
   color: white;
   font-family: sans-serif;
+  transition: 0.5s;
 }
 .box-img {
   border-radius: 50%;
@@ -49,4 +50,7 @@ ul {
 }
 .box li a:hover {
   color: #b9b9b9;
+}
+.box:hover {
+  scale: 1.1;
 }
